@@ -1,0 +1,10 @@
+Script started on Tue Apr 18 22:10:11 2023
+]0;sonika@r1n17.darwin:~/CISC372_picProject[?1034h[sonika@r1n17 CISC372_picProject]$ export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+]0;sonika@r1n17.darwin:~/CISC372_picProject[sonika@r1n17 CISC372_picProject]$ srun ./newimage pic1.jpg edge
+Took 7 seconds
+]0;sonika@r1n17.darwin:~/CISC372_picProject[sonika@r1n17 CISC372_picProject]$ srun ./image pic1.l jpg edge
+Took 7 seconds
+]0;sonika@r1n17.darwin:~/CISC372_picProject[sonika@r1n17 CISC372_picProject]$ exit 
+exit
+
+Script done on Tue Apr 18 22:11:41 2023
